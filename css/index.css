@@ -1,0 +1,42 @@
+body {
+  background-image: url("https://img.freepik.com/free-photo/billie-dollar-money-background_1150-749.jpg?w=996&t=st=1702171325~exp=1702171925~hmac=7b51eb2061ae9d26f136bc5255c82646398ef0e6681ea30b224916885602fb6e");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: "Playfair Display", serif;
+}
+select {
+  background-color: antiquewhite !important ;
+  opacity: 0.9;
+}
+input {
+  background-color: antiquewhite !important ;
+  opacity: 0.9;
+}
+.custom-div {
+  background-color: ghostwhite !important;
+  opacity: 0.9;
+}
+option {
+  font-weight: 600;
+}
+.fa-github {
+    color:purple;
+    background-color: aliceblue;
+    border: 3px dashed purple;
+    border-radius: 50%;
+    padding: 3px;
+    font-size: 1.6em;
+    transition: all ease-in-out 0.4s 0.1s;
+}
+.fa-github:hover{
+    transform: scale(1.1);
+    transition: all ease-in-out 0.4s 0.1s;
+}
+footer{
+    transition: all ease-in-out 0.4s 0.1s;
+}
+footer:hover{
+    background-color: purple !important;
+    transition: all ease-in-out 0.4s 0.1s;
+}

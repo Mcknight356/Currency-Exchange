@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Exchange</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png" />
+    <link rel="manifest" href="favicon_io/site.webmanifest" />
+    <link
+      rel="stylesheet"
+      href="node_modules/@fortawesome/fontawesome-free/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body class="d-flex align-items-center flex-wrap">
+    <div
+      class="container d-flex flex-column justify-content-center align-items-center gap-1 align-self-end"
+    >
+      <div
+        class="custom-div w-50 form-control d-flex gap-3 align-items-center justify-content-center bg-transparent border-0"
+      >
+        <select
+          class="form-select form-select-sm fs-2 fw-bold w-50"
+          id="selectRate"
+          size="2"
+        ></select>
+        <h2 id="exchangeRate" class="w-50 text-center py-3">0.00</h2>
+      </div>
+      <div
+        class="custom-div w-50 form-control d-flex gap-3 align-items-center justify-content-center p-3 bg-transparent border-0"
+      >
+        <h2 class="w-50 text-center">USD</h2>
+        <input
+          class="form-control fs-3 fw-bold w-25 text-center"
+          type="number"
+          min="1"
+          value="1"
+          id="usdRate"
+        />
+        <span class="fw-bold fs-1">$</span>
+      </div>
+    </div>
+    <footer
+      class="bg-dark w-100 text-white align-self-end text-center py-1"
+    >
+    <a href=""><i class="fas fa-brands fa-github"></i></a>
+    </footer>
+    <script src="node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
