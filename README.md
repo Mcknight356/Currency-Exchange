@@ -19,4 +19,4 @@ Welcome to my Currency Exchange project!
 Feel free to provide feedback or report issues by [creating an issue](https://github.com/Mcknight356/Currency-Exchange).
 
 ## Author
-[Mcknight356](https://github.com/Mcknight356)
+[![Mcknight356](https://avatars.githubusercontent.com/u/120532227?v=4)](https://github.com/Mcknight356)
