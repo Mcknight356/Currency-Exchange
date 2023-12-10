@@ -1,6 +1,6 @@
 # Currency Exchange 💰
 
-Welcome to my Currency Exchange website!
+Welcome to my Currency Exchange project!
 
 ## Features
 - View exchange rates for 10+ currencies 
