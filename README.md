@@ -7,12 +7,12 @@ Welcome to my Currency Exchange project!
 - Simple and user-friendly interface.
 - commpare between many currencies to 1$
 
-## Usage
+## How to use
 1. Visit my website at [Demo](https://mcknight356.github.io/Currency-Exchange/).
 2. Select the currencies you want to convert to USD.
 3. choose the amount of USD
 
-## Technologies Used
+## Languages used
 - HTML, CSS, JavaScript,Bootstrap,Fontawesome
 
 ## Feedback
